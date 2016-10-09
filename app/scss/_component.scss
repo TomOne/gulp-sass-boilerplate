@@ -1,0 +1,15 @@
+.component {
+  color: $bitter-lemon;
+  background-color: $cornflower-blue;
+  width: 100px;
+  height: 100px;
+  transition-duration: 1s;
+  transition-property: background-color, color;
+  transform: rotate(30deg);
+  padding: 50px;
+
+  &:hover {
+    color: $cornflower-blue;
+    background-color: $bitter-lemon;
+  }
+}

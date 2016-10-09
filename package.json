@@ -1,0 +1,29 @@
+{
+  "name": "gulp-sass-boilerplate",
+  "version": "0.0.1",
+  "description": "A demo for Sass transpiling with Gulp, Sass and PostCSS Autoprefixer",
+  "main": [
+    "app/scss/main.scss",
+    "app/index.html",
+    "gulpfile.js"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp sass:watch"
+  },
+  "keywords": ["sass", "scss", "gulp", "autoprefixer"],
+  "author": "TomOne",
+  "license": "ISC",
+  "repository": "TomOne/gulp-sass-boilerplate",
+  "devDependencies": {
+    "autoprefixer": "6.5.0",
+    "eslint": "3.7.1",
+    "eslint-config-standard": "6.2.0",
+    "eslint-plugin-promise": "3.0.0",
+    "eslint-plugin-standard": "2.0.1",
+    "gulp": "3.9.1",
+    "gulp-postcss": "6.2.0",
+    "gulp-sass": "2.3.2",
+    "gulp-sourcemaps": "1.6.0"
+  }
+}

@@ -1,0 +1,24 @@
+.component {
+  color: #cae00d;
+  background-color: #6195ed;
+  width: 100px;
+  height: 100px;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+  -webkit-transition-property: background-color, color;
+  transition-property: background-color, color;
+  -webkit-transform: rotate(30deg);
+      -ms-transform: rotate(30deg);
+          transform: rotate(30deg);
+  padding: 50px; }
+  .component:hover {
+    color: #6195ed;
+    background-color: #cae00d; }
+
+.other-component {
+  color: #fffaf4;
+  background-color: #b44668;
+  width: 100px;
+  height: 100px; }
+
+/*# sourceMappingURL=main.css.map */
